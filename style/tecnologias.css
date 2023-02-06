@@ -1,0 +1,108 @@
+.container-tecnologias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.titulo-tecnologias {
+    padding: 3rem 5rem;
+}
+.titulo-tecnologias h1 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #141414;
+}
+.img-tecnologias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.descricao-tecnologias {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    width: 80%;
+}
+.descricao-tecnologias p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    color: #3D3D3D;
+}
+.descricao-tecnologias p strong {
+    color: #7FAFDD;
+    font-weight: bolder;
+}
+.retangulo2{
+    position: relative;
+    right: 0.3125rem;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .tecno1{
+        width: 9.375rem;
+    }
+}
+@media (min-width: 630px) and (max-width: 799px) {
+    .titulo-tecnologias h1 {
+        font-size: 3.2rem;
+    }
+    .tecno1{
+        width: 7.5rem;
+    }
+    .descricao-tecnologias p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+}
+@media (min-width: 510px) and (max-width: 629px) {
+    .img-tecnologias {
+        gap: 1rem;
+    }
+    .tecno1{
+        width: 6rem;
+    }
+}
+@media (min-width: 380px) and (max-width: 509px) {
+    .container-tecnologias {
+        margin-top: 5rem;
+    }
+    .titulo-tecnologias h1 {
+        font-size: 3rem;
+    }
+    .img-tecnologias {
+        margin-top: 3rem;
+        gap: 1.6rem;
+    }
+    .tecno1 {
+        width: 9rem;
+    }
+}
+@media (min-width: 249px) and (max-width: 379px) {
+    .container-tecnologias {
+        margin-top: 5rem;
+    }
+    .titulo-tecnologias h1 {
+        font-size: 2rem;
+    }
+    .img-tecnologias {
+        margin-top: 3rem;
+        gap: 1.6rem;
+    }
+    .tecno1 {
+        width: 7rem;
+    }
+}
+@media (min-width: 249px) and (max-width: 509px){
+    .img-tecnologias {
+        flex-direction: column;
+    }
+    .titulo-tecnologias {
+        padding: 0;
+    }
+}

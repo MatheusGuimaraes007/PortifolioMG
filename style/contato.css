@@ -1,0 +1,95 @@
+.container-contato {
+    display: flex;
+    justify-content: center;
+}
+.img-contato {
+    width: 50%;
+}
+.img-contato img {
+    width: 100%;
+}
+.informacoes-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.informacoes-contato h1{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+.descricao-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+.retangulo3 {
+    height:100% ;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 0.3125rem;
+}
+.descricao-contato p {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #000000;
+}
+.contato-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+}
+.contato-wpp {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.contato-linkedin {
+    display: flex;
+    align-items: center; 
+    gap: 1.2rem;
+}
+.contato-github {
+    display: flex;
+    align-items: center; 
+    gap: 1.2rem;
+}
+.contato-github a , .contato-linkedin a , .contato-wpp span {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    color: #000000;
+}
+.contato-github a:hover , .contato-linkedin a:hover {
+    color: #ccc;
+} 
+
+@media screen and (max-width:1024px) {
+    .img-contato{
+        display: none;
+    }
+    .informacoes-contato {
+        width: 80%;
+    }
+    .descricao-contato{
+        width: 100%;
+    }
+    .contato-github a , .contato-linkedin a {
+        font-size: 1rem;
+    }
+}

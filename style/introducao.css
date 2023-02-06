@@ -1,0 +1,108 @@
+
+.container-introducao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descricao-introducao h1 {
+    font-weight: 700;
+    font-size: 2.3rem;
+    line-height: 2.875rem;
+    color: #141414;
+    margin-left: 1.25rem;
+}
+.descricao-introducao h1 strong {
+    color: #7FAFDD;
+}
+.img-introducao {
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-introducao img {
+    width: 100%;
+}
+
+                /* Responsivo */
+
+@media (min-width: 940px) and (max-width:949px) {
+    .descricao-introducao h1{
+        font-size: 2rem;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 940px) {
+    .descricao-introducao h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 834px) {
+    .descricao-introducao h1 {
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+        margin: 0;
+    }
+}
+@media screen and (max-width:730px){
+    .container-introducao {
+        flex-direction: column;
+        margin-top: 3rem;
+        gap: 3rem;
+    }
+    .descricao-introducao h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin: 0;
+    }
+    .img-introducao {
+        width: 100%;
+    }
+}
+@media (min-width: 620px) and (max-width:729px){
+    .descricao-introducao h1 {
+        line-height: 3.4rem;
+        margin: 0;
+    }
+    .img-introducao {
+        width: 80%;
+    }
+}
+@media (min-width: 590px) and (max-width:619px){
+    .descricao-introducao h1 {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+        margin: 0;
+    }
+}
+@media (min-width: 419px) and (max-width:589px){
+    .descricao-introducao h1{
+        font-size: 2rem;
+        line-height: 2.4rem;
+        margin-left: 0;
+    }
+    .container-introducao {
+        gap: 0.3rem;
+    }
+}
+@media (min-width: 330px) and (max-width:418px){
+    .descricao-introducao h1 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        margin: 0;
+    }
+    .container-introducao{
+        gap: 0;
+    }
+}
+@media (min-width: 249px) and (max-width:329px){
+    .descricao-introducao h1 {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin: 0;
+    }
+    .container-introducao{
+        gap: 0;
+    }
+}

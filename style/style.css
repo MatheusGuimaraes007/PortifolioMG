@@ -1,0 +1,18 @@
+@import url(navegação.css);
+@import url(introducao.css);
+@import url(projetos.css);
+@import url(tecnologias.css);
+@import url(contato.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans' , sans-serif;
+    text-decoration: none;
+}
+
+.open{
+    display: block;
+}
